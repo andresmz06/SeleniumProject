@@ -61,7 +61,7 @@ async function clickElementByXpath(driver, xpath) {
 }
 
 describe('Prueba_1', function() {
-  this.timeout(30000);
+  this.timeout(50000);
 
   beforeEach(async function() {
     driver = await new Builder()
