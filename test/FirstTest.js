@@ -28,7 +28,7 @@ async function clickElementByXpath(driver, xpath) {
   }
   async function leerDatosDesdeExcel() {
     const workbook = new ExcelJS.Workbook();
-    await workbook.xlsx.readFile('C:/Users/Andre/Downloads/RegistroDeDesconexiones_Completo.xlsx');
+    await workbook.xlsx.readFile('RegistroDeDesconexiones_Completo.xlsx');
     const worksheet = workbook.getWorksheet('DatosDePrueba');
 
     const datos = [];
